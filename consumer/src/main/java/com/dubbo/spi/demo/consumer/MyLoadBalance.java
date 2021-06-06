@@ -8,7 +8,7 @@ import com.alibaba.dubbo.rpc.cluster.LoadBalance;
 
 import java.util.List;
 
-public class DemoLoadBalance implements LoadBalance {
+public class MyLoadBalance implements LoadBalance {
 
     @Override
     public <T> Invoker<T> select(List<Invoker<T>> invokers, URL url, Invocation invocation) throws RpcException {
