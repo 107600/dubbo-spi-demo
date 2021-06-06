@@ -7,5 +7,5 @@
     <dubbo:application name="demo-consumer"/>
     <dubbo:registry address="zookeeper://127.0.0.1:2181"/>
 
-    <dubbo:reference id="helloService" interface="com.dubbo.spi.demo.api.IHelloService" loadbalance="demo" />
+    <dubbo:reference id="helloFacade" interface="com.dubbo.spi.demo.api.HelloFacade" loadbalance="demo" />
 </beans>

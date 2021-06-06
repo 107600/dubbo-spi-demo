@@ -1,6 +1,6 @@
 package com.dubbo.spi.demo.api;
 
-public interface IHelloService {
+public interface HelloFacade {
     String hello(String name);
 
 }
